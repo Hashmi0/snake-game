@@ -2,7 +2,7 @@
 
 ## Current checkpoint
 
-- Task: 5.2 — verified. Implementation and release verification are complete; physical-device/WebKit runtime checks and a measured performance run remain explicitly unverified.
+- Task: 5.2 — verified. Implementation and release verification are complete; the board focus treatment was refined after review. Physical-device/WebKit runtime checks and a measured performance run remain explicitly unverified.
 - Working tree: initially empty, no Git repository. Node 26.7.0 and npm 11.19.0 available.
 - Last verified implementation commit: `52b6945` (`feat: build Snake Garden 3D snake game`).
 - Verification: typecheck, 55 unit tests, production build, e2e build, 6 deterministic browser tests, 10 production smoke/visual tests all pass. Evidence screenshots are in `.evidence/screenshots/` (ignored from Git).
